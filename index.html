@@ -3,107 +3,111 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Donde Comer Málaga | Restaurantes y Opciones de Comida</title>
-  <meta name="description" content="Donde Comer en Málaga: Guía de restaurantes, bares y comida local. Descubre los mejores lugares para desayunos, comidas y cenas con amigos o familia.">
+
+  <title>Si buscas un lugar donde comer en Málaga un Domingo | Peña la Cultural | Platos tradicionales | Patio Andaluz | Buena compañía y mucho más</title>
+  <meta name="description" content="Peña La Cultural en Málaga: eventos, música, catering y buen ambiente en Teatinos. Sábados Jóvenes, comidas y celebraciones privadas.">
+
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/hamburguesa.jpeg" />
 </head>
+
 <body>
 
   <!-- NAVBAR -->
-  <header class="navbar">
-    <h1>Donde Comer Málaga</h1>
+  <header class="navbar" id="navbar">
+    <h1 class="logo">Peña La Cultural</h1>
     <nav>
-      <a href="#restaurantes">Restaurantes</a>
-      <a href="#sobre">Sobre nosotros</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#inicio">Inicio</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#galeria">Galería</a>
+      <a href="contactanos.html">Contacto</a>
+      <a href="catering.html">Catering</a>
     </nav>
   </header>
 
   <!-- HERO -->
-  <section class="hero">
-    <h2>Descubre dónde comer en Málaga</h2>
-    <p>Encuentra los mejores restaurantes, bares y cafeterías de la ciudad.</p>
-    <button onclick="document.getElementById('restaurantes').scrollIntoView({behavior:'smooth'})">
-      Ver Restaurantes
-    </button>
-  </section>
-
-  <!-- RESTAURANTES -->
-  <section id="restaurantes">
-    <h2>Opciones para comer en Málaga</h2>
-
-    <div class="card">
-      <img src="images/WhatsApp Image 2025-12-09 at 20.36.48.jpeg" alt="Catering" class="intercalada">
-      <div class="card-text">
-        <h3>Catering</h3>
-        <p>Solicita presupuesto :</p>
-        <p><a href="https://laculturaltelefonica-ship-it.github.io/CateringGilRoman/" target="_blank">Catering Gil Roman</a></p>
-
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="images/WhatsApp Image 2025-12-09 at 20.42.25.jpeg" alt="Ocio" class="intercalada">
-      <div class="card-text">
-        <h3>Espacio de ocio</h3>
-        <p>¿Te atreves a descubrirnos?</p>
-        <p><a href="https://laculturaltelefonica-ship-it.github.io/Espacio Ocio/" target="_blank">Para tapear y pasarlo bien</a></p>
-
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="images/WhatsApp Image 2025-12-09 at 20.42.26 (1).jpeg" alt="Eventos" class="intercalada">
-      <div class="card-text">
-        <h3>Espacio para Eventos</h3>
-        <p>¿Te atreves a descubrirnos?</p>
-        <p><a href="https://laculturaltelefonica-ship-it.github.io/Espacio Ocio/" target="_blank">Para Celebrar Encuentros</a></p>
-
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="images/WhatsApp Image 2025-12-09 at 20.42.26 (2).jpeg" alt="Peña" class="intercalada">
-      <div class="card-text">
-        <h3>La Peña</h3>
-        <p>Descubre todo lo que podemos ofrecer</p>
-        <p><a href="https://laculturaltelefonica-ship-it.github.io/Espacio Ocio/" target="_blank">Aquí puedes reunirte, jugar, comer y beber practicamente lo que quieras</a></p>
-
-      </div>
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1 class="titulo-amarillo fade-in">Bienvenidos a la Peña La Cultural</h1>
+      <p class="fade-in delay-1">
+        Un espacio chill en Málaga para eventos, música, comida y buena compañía.
+      </p>
+      <button class="fade-in delay-2" onclick="scrollToSection('eventos')">
+        Ver próximos eventos
+      </button>
     </div>
   </section>
 
-  <!-- SOBRE NOSOTROS -->
-  <section id="sobre">
-    <h2>Sobre nosotros</h2>
+  <!-- EVENTOS -->
+  <section id="eventos">
+    <h2>Próximos eventos</h2>
+
     <div class="card">
-      <img src="images/WhatsApp Image 2025-12-09 at 20.42.26.jpeg" alt="Sobre Donde Comer" class="intercalada">
-      <div class="card-text">
-        <p>“Donde Comer Málaga” es tu guía confiable para descubrir los mejores lugares donde comer en la ciudad, con recomendaciones de restaurantes, cafeterías y bares locales.</p>
-      </div>
+      <h3>Miercoles 17 Diciembre - Parrillada + Callos</h3>
+      <p>📅 Menú especial 14€.</p>
+    </div>
+
+    <div class="card">
+      <h3>Domingo 21 Diciembre - Paella</h3>
+      <p>📅 Todos los domingos – Menú - Ensalada + 1er plato + 2do plato + pan + bebida + postre + café.</p>
+    </div>
+
+    <div class="card">
+      <h3>Domingo 28 Diciembre - Callos</h3>
+      <p>📅 Todos los domingos – Menú - Ensalada + 1er plato + 2do plato + pan + bebida + postre + café.</p>
+    </div>
+
+    <div class="card">
+      <h3>Miercoles 31 - Jueves 01 --- Fiesta de Año Nuevo</h3>
+      <p>¿Querian otra fiesta? Pues esta es la fecha indicada, celebremos juntos el año nuevo en la Peña.</p>
+    </div>
+
+    <div class="card">
+      <h3>Domingo 04 Enero - Plato de los montes</h3>
+      <p>📅 Todos los domingos – Menú.</p>
+    </div>
+
+    <div class="card">
+      <h3>Sábados Jóvenes</h3>
+      <p>📅 Todos los sábados – Juegos, quedadas, música, comida, copas, shishas y buen ambiente.</p>
+    </div>
+
+    <div class="card">
+      <h3>Menú Domingo</h3>
+      <p>📅 Todos los domingos – Menú especial 11€. Pregunta el menú semanal por Instagram o WhatsApp.</p>
+    </div>
+
+  
+
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria">
+    <h2>Galería de fotos</h2>
+
+    <div class="galeria-grid">
+      <img src="images/migas.jpeg" alt="Catering Málaga migas">
+      <img src="images/jamon.jpeg" alt="Catering Málaga jamón">
+      <img src="images/paella.jpeg" alt="Catering Málaga paella">
+      <img src="images/hamburguesa.jpeg" alt="Catering Málaga hamburguesa">
+      <img src="images/ensaladilla.jpeg" alt="Catering Málaga ensaladilla">
     </div>
   </section>
 
   <!-- CONTACTO -->
   <section id="contacto">
     <h2>Contacto</h2>
-    <p>📍 Málaga, España</p>
+    <p>📍 Calle Ruy Lopez 40, Teatinos, Málaga</p>
     <p>📞 643 213 578</p>
     <p>📧 laculturaltelefonica@gmail.com</p>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2025 Donde Comer Málaga | Web creada por Jesús Orellana</p>
-    <p>
-      Otras páginas:
-      <a href="https://laculturaltelefonica-ship-it.github.io/LaCulturalWEB/" target="_blank">LaCultural</a> |
-      <a href="https://laculturaltelefonica-ship-it.github.io/Eventos/" target="_blank">Eventos</a> |
-      <a href="https://laculturaltelefonica-ship-it.github.io/EspacioOcio/" target="_blank">Espacio Ocio</a> |
-      <a href="https://laculturaltelefonica-ship-it.github.io/DondeComer/" target="_blank">Dónde Comer</a>
-    </p>
+    <p>© 2025 Peña La Cultural | Web creada por Jesús Orellana</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
